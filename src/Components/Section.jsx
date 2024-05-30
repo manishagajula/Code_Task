@@ -1,6 +1,6 @@
 import { GiPlayButton } from "react-icons/gi";
 
-import song from "../Audio/.Dekha Tenu Pehli Pehli Baar Ve.mp3";
+// import song from "../Audio/.Dekha Tenu Pehli Pehli Baar Ve.mp3";
 
 export const Section = () => {
   return (
@@ -28,11 +28,11 @@ export const Section = () => {
         /> */}
       </div>
       <div>
-        <figure>
+        {/* <figure>
           <figcaption>Listen to the T-Rex:</figcaption>
           <audio controls src={song}></audio>
           <a href={song}> Download audio </a>
-        </figure>
+        </figure> */}
       </div>
     </div>
   );
